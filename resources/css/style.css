@@ -135,3 +135,27 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 5.2rem;
 }
+
+.loc-time-container {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.loc-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0;
+  border: 1px solid blue;
+}
+
+.info {
+  width: 35%;
+  display: block;
+}
+
+.title {
+  display: block;
+  background-color: black;
+  color: white;
+}
