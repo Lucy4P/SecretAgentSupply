@@ -120,9 +120,13 @@ body {
 }
 
 .products img {
+  max-width: 9rem;
+  /*padding-top: 2rem;
+  padding-bottom: 2rem;*/
+}
+
+.prod1, .prod2, .prod3 {
   height: 9rem;
-  width: auto;
-  max-width: 163px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
