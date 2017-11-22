@@ -99,7 +99,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .products {
@@ -129,4 +129,9 @@ body {
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.prod3 img {
+  padding-top: 1.5rem;
+  padding-bottom: 5.2rem;
 }
