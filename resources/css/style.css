@@ -98,7 +98,11 @@ body {
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.prodgrid {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -145,7 +149,6 @@ body {
 .loc-time {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0 0;
   border: 1px solid blue;
 }
 
@@ -158,4 +161,28 @@ body {
   display: block;
   background-color: black;
   color: white;
+  padding: 1rem 2rem;
+}
+
+.footer-container {
+  height: 5rem;
+  border: 1px solid blue;
+  margin-top: 4rem;
+  background-color: black;
+
+
+}
+
+ .copyright {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  text-align: left;
+  height: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
 }
