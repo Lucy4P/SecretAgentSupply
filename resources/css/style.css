@@ -15,7 +15,7 @@ body {
 .header {
   background-color: black;
   color: white;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .logo {
@@ -24,7 +24,7 @@ body {
   font-size: 1rem;
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
 }
@@ -33,21 +33,21 @@ body {
   height: 1.5rem;
   margin-right: 1rem;
   margin-left: 0.5rem;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .herocontainer {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
   height: 25rem;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 
 }
 
 .hero {
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 
 }
 
@@ -56,7 +56,7 @@ body {
   background-color: black;
   color: white;
   padding: 2rem 3rem;
-  border: 1px solid teal;
+  /*border: 1px solid teal;*/
   font-weight: bold;
   position: relative;
   top: 9rem;
@@ -65,13 +65,13 @@ body {
 
 .herotxt1 {
   font-size: 1rem;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding-bottom: 0.25rem;
 }
 
 .herotxt2 {
   font-size: 2rem;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   line-height: 2.25rem;
 }
 
@@ -86,7 +86,12 @@ body {
   color: white;
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+}
+
+.menu {
+  color: white;
+  display: none;
 }
 
 .nav span {
@@ -133,23 +138,26 @@ body {
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .prod3 img {
   padding-top: 1.5rem;
-  padding-bottom: 5.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .loc-time-container {
   max-width: 960px;
   margin: 0 auto;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .loc-time {
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .info {
@@ -184,5 +192,98 @@ body {
   height: 5rem;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+}
+
+@media only screen and (max-width: 1024px) {
+  .products {
+    width: 47%;
+  }
+
+  .info {
+    width: 35%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .herotxt1 {
+    font-size: 0.77rem;
+  }
+
+  .herotxt2 {
+    font-size: 1rem;
+  }
+
+  .menu {
+    display: block;
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    max-width: 960px;
+    /*border: 1px solid green;*/
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+.herocontainer {
+  height: 15rem;
+}
+
+.herotext {
+  width: 100%;
+  padding: 1rem 2rem;
+  top: 9rem;
+  /*margin-left: 2rem;*/
+}
+
+.herotxt1 {
+  font-size: 0.77rem;
+}
+
+.herotxt2 {
+  font-size: 1rem;
+}
+
+.glasses, .watch {
+  display: none;
+}
+
+.products {
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+.loc-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loc-time-container {
+  margin-top: 15px;
+}
+
+.title {
+  margin-top: 0.5rem;
+}
+
+.info {
+  width: 90%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 }
